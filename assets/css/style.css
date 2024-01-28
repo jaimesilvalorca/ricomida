@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-ricomida{
+
+    font-family: 'Lobster', sans-serif;
+    font-size: 37px ;
+
+}
+
+.img-responsive img{
+
+    width: 100%;
+}
+
+.line{
+    border: solid 1px;
+    color: #000000;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.buttons button{
+    margin-right: 25px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.custom-button button{
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    background-color: #373A3C;
+}
+
+.newsletter{
+    background-color: #DC3545;
+    height: 534px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hfooter{
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletterr{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.ricomida-normal{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.ricomida{
+    font-family: 'Lobster', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h4{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+
+}
+
+ul{
+    
+    list-style: none;
+    letter-spacing: 0.6px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.p-etiqueta{
+
+    letter-spacing: 0.6px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+ol{
+    
+    letter-spacing: 0.6px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ol li{
+    margin-bottom: 40px;
+}
+
+.rojo{
+    color: red;
+}
+
+@media (max-width: 575.98px) {
+
+    .carousel-mobile{
+        display: none;
+    }
+    .button-enviar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-enviar button{
+        font-size: 13px !important;
+    }
+
+    .h1-mobile{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .h5-mobile{
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .p-etiqueta{
+        font-size: 16px;
+
+    }
+
+    h4{
+        margin-left: 20px;
+        font-size: 16px;
+
+    }
+
+    ul{
+    
+        font-size: 16px;
+    }
+
+    ol{
+    
+        font-size: 16px;
+    }
+
+    .newsletterr{
+        font-size: 30px;
+    }
+
+    .ricomida-normal{
+        font-size: 20px;
+    }
+    .ricomida{
+        font-size: 20px;
+    }
+    
+ }
